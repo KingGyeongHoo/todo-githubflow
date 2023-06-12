@@ -1,4 +1,5 @@
 # My Todo App
+![image](https://github.com/KingGyeongHoo/todo-githubflow/assets/117385050/cbfbe3bb-ecb1-417c-b2f6-d7a0221e33b8)
 
 Todo 관리를 위한 웹 애플리케이션입니다.
 
