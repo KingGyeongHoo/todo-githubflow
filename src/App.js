@@ -11,7 +11,7 @@ function App() {
       <header>
         <Header />
       </header>
-      <main><Todolist list={list}/></main>
+      <main><Todolist list={list} setList={setList}/></main>
       <footer>
         <Footer />
       </footer>
