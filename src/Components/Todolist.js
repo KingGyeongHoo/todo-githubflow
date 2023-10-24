@@ -67,14 +67,17 @@ const TodoTitleSpan = styled.span`
   font-weight: bold;
 `;
 
-export default function Todolist({ list }) {
+export default function Todolist({ list, setList }) {
+  const enterList = () => {
+    setList()
+  }
   return (
     <>
       <Container>
         <InputTodo>
           <Input type="text" placeholder="할일을 입력하세요" />
           <Input type="text" placeholder="기한을 입력하세요" />
-          <Button>등록</Button>
+          <Button onClick={enterList}>등록</Button>
         </InputTodo>
         <ListTodo>
           {list.map((el) => 
